@@ -33,7 +33,7 @@ namespace {
 
 char Scatter::ID = 0;
 static RegisterPass<Scatter>
-X(  "scatter",  // the option name -> -xor
+X(  "scatter",  // the option name -> -scatter
     "Data scatter pass", // option description
     true, // true as we don't modify the CFG
     false // true if we're writing an analysis
